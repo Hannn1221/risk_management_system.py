@@ -567,3 +567,30 @@ def generate_risk_report():
     return report
 
 print(generate_risk_report())
+
+# Create images directory
+import os
+if not os.path.exists('images'):
+    os.makedirs('images')
+
+# Save all your plots with high DPI
+plt.figure(figsize=(16, 12))
+# [Your risk dashboard code here]
+plt.savefig('images/portfolio_dashboard.png', dpi=300, bbox_inches='tight')
+
+# Save individual plots
+plt.figure(figsize=(12, 8))
+# [Your VaR distribution plot]
+plt.savefig('images/var_distribution.png', dpi=300, bbox_inches='tight')
+
+plt.figure(figsize=(12, 8))
+# [Your correlation heatmap]
+plt.savefig('images/correlation_heatmap.png', dpi=300, bbox_inches='tight')
+
+plt.figure(figsize=(12, 8))
+# [Your stress test results]
+plt.savefig('images/stress_test_results.png', dpi=300, bbox_inches='tight')
+
+plt.figure(figsize=(12, 8))
+# [Your risk attribution chart]
+plt.savefig('images/risk_attribution.png', dpi=300, bbox_inches='tight')
