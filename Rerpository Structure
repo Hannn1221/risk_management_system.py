@@ -1,0 +1,24 @@
+portfolio-risk-management/
+│
+├── README.md                     # The README I created above
+├── requirements.txt              # Dependencies file
+├── risk_management_system.py     # Main Python script
+├── portfolio_risk_analysis.ipynb # Jupyter notebook version
+├── LICENSE                       # MIT License
+├── .gitignore                    # Python gitignore
+│
+├── images/                       # All your saved plots
+│   ├── portfolio_dashboard.png
+│   ├── var_distribution.png
+│   ├── correlation_heatmap.png
+│   ├── stress_test_results.png
+│   └── risk_attribution.png
+│
+├── utils/                        # Optional: organized code
+│   ├── __init__.py
+│   ├── var_calculations.py
+│   ├── backtesting.py
+│   └── stress_testing.py
+│
+└── data/                         # Optional: data files
+    └── sample_data.py
