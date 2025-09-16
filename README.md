@@ -57,6 +57,6 @@ This system implements a full portfolio risk management pipeline with:
 
 You can interact with the project in different ways:  
 
-### 1. Run the Full Pipeline (Single Script)  
+### Run the Full Pipeline (Single Script)  
 ```bash
 python portfolio_risk_management.py
